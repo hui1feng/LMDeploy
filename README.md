@@ -258,3 +258,7 @@ lmdeploy convert  internlm-chat-7b ./quant_output \
     --dst_path ./workspace_quant
 ```
 量化模型和 KV Cache 量化也可以一起使用，以达到最大限度节省显存。W4A16 参数量化后能极大地降低显存，同时相比其他框架推理速度具有明显优势。
+
+参考资料：
+https://github.com/InternLM/tutorial/blob/main/lmdeploy/lmdeploy.md
+https://www.bilibili.com/video/BV1iW4y1A77P/?spm_id_from=333.999.0.0&vd_source=1451efee9af1bf2214b4d072f5760564
